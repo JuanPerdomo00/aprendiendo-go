@@ -26,4 +26,15 @@ func main() {
 	// modulo
 	result = y % x
 	fmt.Println("modulo: ", result)
+
+	// incremental
+	// x += 1
+	x++
+	fmt.Println(x)
+
+	// decremental
+	// x -= 1
+	x--
+	fmt.Println(x)
+
 }
